@@ -1,0 +1,239 @@
+/**
+ * Reset some basic elements
+ */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+* {max-height: 1000000px;}
+
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+	color: $text-color;
+	background-color: $background-color;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-feature-settings: "kern" 1;
+		 -moz-font-feature-settings: "kern" 1;
+			 -o-font-feature-settings: "kern" 1;
+					font-feature-settings: "kern" 1;
+	font-kerning: normal;
+	min-width: 1024px;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+	margin-bottom: $spacing-unit / 2;
+}
+
+
+/**
+ * Images
+ */
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+	display: block;
+}
+
+figcaption {
+	font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+	margin-left: $spacing-unit;
+}
+
+li {
+	> ul,
+	> ol {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: $base-font-weight;
+	color: #333;
+	line-height: 1.2;
+}
+
+
+h1 {
+	font-size: 32px;
+	line-height: 1.2;
+	margin: 0 0 14px;
+}
+
+p+h1 {
+  padding-top: 60px;
+}
+
+p+h2 {
+	padding-top: 34px;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 0 0 4px;
+}
+
+h2+p {
+	img {
+		padding: 33px 0 0;
+	}
+}
+
+p+h3 {
+	padding-top: 34px;
+}
+
+p {
+	margin: 0 0 28px;
+}
+
+p {
+	img {
+		padding: 8px 0 3px;
+	}
+}
+
+/**
+ * Links
+ */
+a {
+	color: $brand-color;
+	text-decoration: none;
+	/* &:visited {
+		color: darken($brand-color, 15%);
+	} */
+	&:hover {
+		color: darken($brand-color, 15%);
+		text-decoration: none;
+	}
+
+	.social-media-list &:hover {
+		text-decoration: none;
+		.username {
+			text-decoration: underline;
+		}
+	}
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+	color: #4a4a4a;
+  font-size: 22px;
+  line-height: 1.45;
+  font-weight: 400;
+	letter-spacing: -1px;
+  padding: 20px 0 44px 15%;
+	> :last-child {
+		margin-bottom: 0;
+	}
+  p {
+    &:first-child {
+      position: relative;
+      &:before{
+        content: '"';
+        color: #edac2b;
+        font-size: 37px;
+        font-weight: 400;
+        position: absolute;
+        left: -20px;
+        transform: rotate(4deg);
+        top: 2px;
+      }
+    }
+    margin: 0;
+  }
+  cite {
+    font-style: normal;
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.37;
+    strong {
+      display: block;
+      font-weight: 400;
+    }
+  }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+	@include relative-font-size(0.9375);
+	border: 1px solid $grey-color-light;
+	border-radius: 3px;
+	background-color: #eef;
+}
+
+code {
+	padding: 1px 5px;
+}
+
+pre {
+	padding: 8px 12px;
+	overflow-x: auto;
+
+	> code {
+		border: 0;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}

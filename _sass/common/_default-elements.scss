@@ -1,0 +1,164 @@
+.paging{
+	@extend %clearfix;
+	line-height: 1.2;
+	&.top{
+		border-bottom: solid 1px #edac2b;
+		margin: 0 0 44px;
+		padding: 0 0 4px;
+	}
+	&.bottom{
+		padding-top: 18px;
+		margin-top: 44px;
+		border-top: solid 1px #dddddd;
+	}
+
+	a {
+		color: #f4bb2b;
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		font-size: 16px;
+		&.prev-link {
+			float: left;
+			padding: 0 0 0 11px;
+			&:before {
+				border-width: 0 0 2px 2px;
+				left: 0;
+			}
+		}
+		&.next-link {
+			padding: 0 11px 0 0;
+			float: right;
+			&:before {
+				right: 0;
+				border-width: 2px 2px 0 0;
+			}
+		}
+		&:before {
+			top: 5px;
+			content: '';
+			transform: rotate(45deg);
+			height: 7px;
+			width: 7px;
+			border-radius: 2px;
+			position: absolute;
+			border-style: solid;
+			border-color: #303030;
+		}
+
+		&:hover {
+			color: darken(#f4bb2b,10%);
+		}
+	}
+}
+
+.button{
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	display: inline-block;
+	min-width: 150px;
+	text-align: center;
+	vertical-align: top;
+	padding: 0 40px;
+	height: 30px;
+	border-radius: 4px;
+	background: #fab72e;
+	color: $color-text;
+	font-size: 12px;
+	min-width: 132px;
+	transition: background 0.3s ease;
+	margin: 0 0 10px;
+	&:hover {
+		background: darken(#fab72e,10%);
+		color: $color-text;
+	}
+}
+
+a.button {
+	padding: 5px 40px;
+}
+
+.ttl-line {
+	font-size: 12px;
+	font-weight: 400;
+	color: #333;
+	line-height: 1.7;
+	letter-spacing: normal;
+	display: block;
+	padding: 5px 0 0;
+	margin: 0 0 14px;
+	border-bottom: 1px solid #eead2a;
+	font-family: $base-font-family;
+}
+
+.content {
+	display: block;
+	color: #4a4a4a;
+	font-size: 16px;
+	line-height: 1.625;
+	h1 {
+		font-size: 30px;
+		margin: 0 0 34px;
+	}
+	h2 {
+		font-size: 23px;
+		margin: 0 0 36px;
+	}
+	h3 {
+		font-size: 22px;
+		margin: 0 0 32px;
+	}
+	p {
+		margin: 0 0 33px;
+	}
+}
+
+.min-txt {
+	strong {
+		font-weight: 400;
+		font-size: 13px;
+		text-transform: uppercase;
+		display: block;
+		margin: 0 0 19px;
+	}
+	margin: 0 0 38px;
+	font-size: 12px;
+	line-height: 1.2;
+	p {
+		margin: 0 0 10px;
+	}
+}
+
+.big-txt {
+	font-size: 18px;
+	line-height: 1.77;
+	font-weight: 300;
+}
+
+.block-520 {
+	max-width: 520px;
+	margin: 0 0 32px;
+}
+
+.btn-lbl {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: 400;
+	color: $text-color;
+	border: 1px solid #4a4a4a;
+	border-radius: 3px;
+	min-width: 170px;
+	padding: 13px 20px 13px;
+
+}
+
+.link {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: underline;
+	}
+}

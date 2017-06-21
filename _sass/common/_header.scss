@@ -1,0 +1,253 @@
+#header {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	background: #393939;
+	z-index: 100;
+	.menu-toggle{
+		position: absolute;
+		top: 50%;
+		left: 30px;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		transform: translateY(-50%);
+		display: none;
+		// @include media-query($tablet) {
+		//	display: block;
+		//} 
+		&:before,
+		&:after{
+			content: '';
+			position: absolute;
+			top:50%;
+			left: 0;
+			width: 100%;
+			height: 5px;
+			background: #eab125;
+			transform: translateY(-150%) rotate(0deg);
+			transition: transform .5s ease;
+		}
+		&:after{
+			transform: translateY(75%) rotate(0deg);
+		}
+	}
+	.header-holder{
+		padding: 14px 34px 14px 20px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		// @include media-query($tablet) {
+		//	display: block;
+		//	text-align: center;
+		//} 
+	}
+	.title {
+		color: $color-text;
+		padding: 9px 0 0;
+		margin: 0;
+		font-size: 23px;
+		line-height: 1;
+//		@include media-query($tablet) {
+//			display: inline-block;
+//		}
+	}
+}
+
+.logo {
+	text-indent: 100%;
+	overflow: hidden;
+	width: 292px;
+	height: 25px;
+	background: url('../images/logo-text.png') center no-repeat;
+	background-size: 100% 100%;
+	float: left;
+//	@include media-query($tablet) {
+//		position: absolute;
+//		top: 50%;
+//		right: 30px;
+//		transform: translateY(-50%);
+//		width: 30px;
+//		height: 30px;
+//		background-image: url('../images/logo.png');
+//	}
+}
+
+.menu-opened{
+	#header {
+		.menu-toggle{
+			&:before{
+				transform: translateY(-45%) rotate(-45deg);
+			}
+			&:after{
+				transform: translateY(-45%) rotate(45deg);
+			}
+		}
+	}
+	#sidebar{
+		//@include media-query($tablet) {
+		//	transform: translateX(0%);
+		//}
+	}
+}
+
+#nav{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 25px 0 0;
+	li {
+		margin: 0 0 13px;
+		&.drop-opened{
+			.opener{
+				&:before{
+					top: 60%;
+					transform: translate(-50%, -50%) rotate(-45deg);
+				}
+			}
+			> .drop{
+				opacity: 1;
+				visibility: visible;
+				position: relative;
+				height: auto;
+			}
+			> .sub-drop{
+				opacity: 1;
+				visibility: visible;
+				position: relative;
+				height: auto;
+			}
+		}
+	}
+	.opener{
+		position: absolute;
+		top: 50%;
+		right: 5px;
+		transform: translateY(-50%);
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+	> li > a{
+		.opener{
+			&:hover{
+				&:before{
+					border-width: 5px 5px 0 0;
+					border-color: #a97112;
+				}
+			}
+			&:before{
+				content: '';
+				position: absolute;
+				left: 50%;
+				top: 35%;
+				transform: translate(-50%, -50%) rotate(135deg);
+				height: 13px;
+				width: 13px;
+				border-radius: 2px;
+				border-width: 2px 2px 0 0;
+				border-style: solid;
+				border-color: #303030;
+			}
+		}
+	}
+	a{
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		color: #f4bb2b;
+		padding: 5px 12px 5px;
+		&.active{
+			background: #f0f0f0;
+		}
+		&:hover {
+			color: darken($brand-color, 15%);
+			text-decoration: none;
+		}
+	}
+	.drop > li{
+		> a{
+			.opener{
+				&:before,
+				&:after{
+					content: '';
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					transform: translate(-50%, -50%);
+					height: 3px;
+					width: 13px;
+					background: #303030;
+				}
+				&:after{
+					transform: translate(-50%, -50%) rotate(90deg);
+				}
+				&:hover{
+					&:before,
+					&:after{
+						height: 5px;
+						background-color: #a97112;
+					}
+				}
+			}
+		}
+		&.drop-opened{
+			> a{
+				.opener{
+					&:after{
+						visibility: hidden;
+					}
+				}
+			}
+		}
+	}
+	ul{
+		font-size: 14px;
+		padding: 6px 0 0;
+		text-transform: none;
+		list-style: none;
+		margin: 0;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		width: 100%;
+		transition: opacity .5s ease, visibility .5s ease;
+		visibility: hidden;
+		position: absolute;
+		opacity: 0;
+		height: 0;
+		ul {
+			padding: 0;
+		}
+		li {
+			margin: 0;
+			&.first {
+				> a {
+					padding-left: 24px;
+					&:before{
+						display: none;
+					}
+				}
+			}
+		}
+		a {
+			padding: 8px 3px 8px 36px;
+			display: block;
+			color: #333;
+			position: relative;
+			&:before{
+				content: '';
+				top: 0;
+				left: 25px;
+				bottom: 0;
+				width: 1px;
+				background: #f1ac00;
+				position: absolute;
+			}
+		}
+	}
+}

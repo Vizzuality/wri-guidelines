@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+	{% include head.html %}
+	<body>
+		{% include header.html %}
+		<section class="main-holder">
+			{% include sidebar.html %}
+			<div class="main-content">
+				{% if page.prevPage or page.nextPage %}
+				<div class="paging top">
+					{% if page.prevPage %}
+						<a class="prev-link" href="{{ site.baseurl }}{{ page.prevPage }}">Prev</a>
+					{% endif %}
+					{% if page.nextPage %}
+						<a class="next-link" href="{{ site.baseurl }}{{ page.nextPage }}">Next</a>
+					{% endif %}
+				</div>
+				{% endif %}
+				{{ content }}
+				{% if page.prevPage or page.nextPage %}
+				<div class="paging bottom">
+					{% if page.prevPage %}
+						<a class="prev-link" href="{{ site.baseurl }}{{ page.prevPage }}">Prev</a>
+					{% endif %}
+					{% if page.nextPage %}
+						<a class="next-link" href="{{ site.baseurl }}{{ page.nextPage }}">Next</a>
+					{% endif %}
+				</div>
+				{% endif %}
+			</div>
+		</section>
+	</body>
+</html>

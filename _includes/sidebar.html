@@ -1,0 +1,36 @@
+<div id="sidebar">
+	{% assign groups = site.pages | sort: 'order' | group_by: 'category' %}
+	<ul id="nav">
+		{% for group in groups %}
+			{% if group.name != '' %}
+				{% assign items = group.items %}
+				{% assign drops = items | sort: 'order' | group_by: 'subcategory' %}
+				{% assign length = items | size %}
+				<li>
+					<a class="{% if items.first.title == page.title %}active{% endif %}"
+						href="{{ site.baseurl }}{{ items.first.url }}">{{ items.first.title }}{% if length > 1 %}<span class="opener"></span>{% endif %}</a>
+					{% for drop in drops %}
+						{% if drop.size > 1 %}
+							<ul class="drop">
+								<li class="first">
+									<a class="{% if drop.items.first.title == page.title %}active{% endif %}"
+										href="{{ site.baseurl }}{{ drop.items.first.url }}">{{ drop.items.first.title }}<span class="opener"></span></a>
+									<ul class="sub-drop">
+										{% for item in drop.items %}
+											{% if forloop.index > 1 %}
+												<li>
+													<a class="{% if item.title == page.title %}active{% endif %}"
+														href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+												</li>
+											{% endif %}
+										{% endfor %}
+									</ul>
+								</li>
+							</ul>
+						{% endif %}
+					{% endfor %}
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
