@@ -25,13 +25,13 @@ them to better fit each project.
 When the map view is accompanied by analysis tools or high complex features, a sidebar
 should be the place for collecting those interactive elements.
 
-![image description]({{ site.baseurl }}/images/image22.jpg)
+![image description]({{ site.baseurl }}/images/image22.png)
 
 When the map view has just a few layers or a narrative paragraph for providing context,
 there should be a box for placing those elements. In these cases, the legend would be
 optional if the narrative contains information enough.
 
-![image description]({{ site.baseurl }}/images/image23.jpg)
+![image description]({{ site.baseurl }}/images/image23.png)
 
 <div class="caption">
 	<mark> * </mark> Optional element
@@ -39,7 +39,7 @@ optional if the narrative contains information enough.
 
 ## Map elements
 
-![image description]({{ site.baseurl }}/images/image24.jpg)
+![image description]({{ site.baseurl }}/images/image24.png)
 
 ## Examples
 

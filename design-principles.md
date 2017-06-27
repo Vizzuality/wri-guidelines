@@ -32,4 +32,3 @@ Design for your users' needs, customize graphs based on what they need and creat
 to use interfaces thinking that take into account who they are, the technology they are
 using, and the outcomes they are expecting.
 
-<!-- ![image description]({{ site.baseurl }}/images/image2.jpg) -->

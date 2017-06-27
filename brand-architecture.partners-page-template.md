@@ -13,4 +13,4 @@ order: 2.6
 
 In many projects, there are a large number of teams involved. They could be founders, partners, collaborators, funders, etc. For those cases when the footer is not sufficient enough for showing them, there will be a whole page listing them, split by role.
 
-![image description]({{ site.baseurl }}/images/image17.jpg)
+![image description]({{ site.baseurl }}/images/image17.png)

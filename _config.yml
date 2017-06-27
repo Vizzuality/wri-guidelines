@@ -2,7 +2,7 @@ title: WRI Style Guidelines
 logoText: world resources institute
 email: your-email@domain.com
 description: WRI Style Guidelines
-baseurl: /wri-guidelines # the subpath of your site, e.g. /blog
+baseurl: /wri # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # settings

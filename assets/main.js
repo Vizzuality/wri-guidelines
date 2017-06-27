@@ -81,11 +81,10 @@ if (!Object.assign) {
 ;(function() {
 	function Accordion(options) {
 		this.options = Object.assign({
-			drop: '.drop',
 			items: 'li',
 			opener: '.opener',
 			activeClass: 'drop-opened',
-			activeItem: '.drop .active'
+			activeItem: '.active'
 		}, options);
 		this.init();
 	}

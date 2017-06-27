@@ -2,7 +2,9 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Fira Sans",  Arial, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: 'AcuminPro',  Arial, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$secondary-font-family: 'AcuminProCond',  Arial, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$secondary2-font-family: 'AcuminProSemiCond',  Arial, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   17px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -43,6 +45,7 @@ $tablet:           1024px !default;
 
 // Import partials.
 @import
+  "common/fonts",
   "common/base",
   "common/header",
   "common/default-elements",

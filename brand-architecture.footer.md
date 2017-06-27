@@ -17,7 +17,7 @@ The footer shows links to other sections, to social media profiles, partner logo
 
 ## Content
 
-![image description]({{ site.baseurl }}/images/image9.jpg)
+![image description]({{ site.baseurl }}/images/image9.png)
 
 <div class="caption">
 	<mark> * </mark> Optional element
@@ -25,11 +25,11 @@ The footer shows links to other sections, to social media profiles, partner logo
 
 Some projects that has no partners list and/or a little sitemap. On these cases there should be used a condensed template:
 
-![image description]({{ site.baseurl }}/images/image10.jpg)
+![image description]({{ site.baseurl }}/images/image10.png)
 
 ## Composition
 
-![image description]({{ site.baseurl }}/images/image11.jpg)
+![image description]({{ site.baseurl }}/images/image11.png)
 
 ## Examples
 
@@ -37,12 +37,12 @@ Click on the thumbnails to see how the navigation looks when applied to a real-l
 
 <span class="examples-block">
 	<span class="post-examples">
-		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image12.jpg">
+		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image12-big.png">
 			![image description]({{ site.baseurl }}/images/image12.jpg)
 		</span>
 	</span>
 	<span class="post-examples">
-		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image13.jpg">
+		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image13-big.png">
 			![image description]({{ site.baseurl }}/images/image13.jpg)
 		</span>
 	</span>
