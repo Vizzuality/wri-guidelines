@@ -15,7 +15,7 @@ The top bar is always the first element in a page. It serves as a fast way to st
 with WRI main sections, with a dropdown with links to the most relevant issues and
 sections deploying dropdown menu when clicking on any place of the bar.
 
-![image description]({{ site.baseurl }}/images/image3.jpg)
+![image description]({{ site.baseurl }}/images/image3.png)
 
 ```css
 body {

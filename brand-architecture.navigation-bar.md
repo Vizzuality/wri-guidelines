@@ -18,7 +18,7 @@ title and sub-section links (if any).
 
 ## Content
 
-![image description]({{ site.baseurl }}/images/image4.jpg)
+![image description]({{ site.baseurl }}/images/image4.png)
 
 <div class="caption">
 	<mark> * </mark> Optional element
@@ -28,7 +28,7 @@ title and sub-section links (if any).
 
 ## Composition
 
-![image description]({{ site.baseurl }}/images/image5.jpg)
+![image description]({{ site.baseurl }}/images/image5.png)
 
 <div class="caption">
 	<mark> * </mark> Out of the grid
@@ -44,7 +44,7 @@ avoid being hidden from view.
 
 <button class="button" onClick="alert('Here wil be download action')">Download template</button>
 
-![image description]({{ site.baseurl }}/images/image6.jpg)
+![image description]({{ site.baseurl }}/images/image6.png)
 
 ## Examples
 
@@ -52,12 +52,12 @@ Click on the thumbnails to see how the navigation looks when applied to a real-l
 
 <span class="examples-block">
 	<span class="post-examples">
-		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image7.jpg">
+		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image7-big.png">
 			![image description]({{ site.baseurl }}/images/image7.jpg)
 		</span>
 	</span>
 	<span class="post-examples">
-		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image8.jpg">
+		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image8-big.png">
 			![image description]({{ site.baseurl }}/images/image8.jpg)
 		</span>
 	</span>

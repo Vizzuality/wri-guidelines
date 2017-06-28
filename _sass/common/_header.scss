@@ -46,10 +46,9 @@
 	}
 	.title {
 		color: $color-text;
-		padding: 9px 0 0;
+		padding: 2px 0 2px;
 		margin: 0;
-		font-size: 23px;
-		line-height: 1;
+		font: 700 23px/1.2 $secondary-font-family;
 //		@include media-query($tablet) {
 //			display: inline-block;
 //		}
@@ -57,13 +56,14 @@
 }
 
 .logo {
-	text-indent: 100%;
 	overflow: hidden;
 	width: 292px;
 	height: 25px;
-	background: url('../images/logo-text.png') center no-repeat;
-	background-size: 100% 100%;
-	float: left;
+	float: right;
+	img {
+		vertical-align: top;
+		width: 100%;
+	}
 //	@include media-query($tablet) {
 //		position: absolute;
 //		top: 50%;
@@ -100,7 +100,7 @@
 	text-transform: uppercase;
 	padding: 25px 0 0;
 	li {
-		margin: 0 0 13px;
+		margin: 0 0 11px;
 		&.drop-opened{
 			.opener{
 				&:before{
@@ -109,12 +109,6 @@
 				}
 			}
 			> .drop{
-				opacity: 1;
-				visibility: visible;
-				position: relative;
-				height: auto;
-			}
-			> .sub-drop{
 				opacity: 1;
 				visibility: visible;
 				position: relative;
@@ -132,7 +126,11 @@
 		cursor: pointer;
 		border-radius: 5px;
 	}
+
 	> li > a{
+		font-family: $secondary-font-family;
+		font-size: 19px;
+		font-weight: 700;
 		.opener{
 			&:hover{
 				&:before{
@@ -163,9 +161,12 @@
 		padding: 5px 12px 5px;
 		&.active{
 			background: #f0f0f0;
+			&:hover {
+				background: #f0f0f0;
+			}
 		}
 		&:hover {
-			color: darken($brand-color, 15%);
+			background: #f7f7f7;
 			text-decoration: none;
 		}
 	}
@@ -220,6 +221,12 @@
 		position: absolute;
 		opacity: 0;
 		height: 0;
+		&.sub-drop{
+			opacity: 1;
+			visibility: visible;
+			position: relative;
+			height: auto;
+		}
 		ul {
 			padding: 0;
 		}
@@ -227,6 +234,8 @@
 			margin: 0;
 			&.first {
 				> a {
+					font-family: $secondary-font-family;
+					font-weight: 700;
 					padding-left: 24px;
 					&:before{
 						display: none;

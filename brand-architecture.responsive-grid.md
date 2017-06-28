@@ -29,7 +29,7 @@ These are some examples of possible configurations for contents of the 12 column
 
 <p>Each column is composed by a variable width that changes with the display size and a 10-pixel padding. There are three cases for a screen up to 1200 pixel-width, the maximum allowed. If the screen is wider than that, the content stays centered. If the screen is smaller than 720 pixels, the content adapts to a mobile device layout with an elastic 6-column grid.</p>
 
-![image description]({{ site.baseurl }}/images/image16.jpg)
+![image description]({{ site.baseurl }}/images/image16.png)
 
 <div class="grid-table">
 	<ul>
@@ -66,7 +66,7 @@ These are some examples of possible configurations for contents of the 12 column
 <div class="width-70"><strong class="ttl-line">Desktop</strong></div>
 
 <span class="post-examples">
-	<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image18.jpg">
+	<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image18-big.png">
 		![image description]({{ site.baseurl }}/images/image18.jpg)
 	</span>
 </span>
@@ -74,17 +74,17 @@ These are some examples of possible configurations for contents of the 12 column
 <span class="examples-block width-01">
 	<span class="post-examples">
 		<strong class="ttl-line">Tablet</strong>
-		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image19.jpg">
+		<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image19-big.png">
 			![image description]({{ site.baseurl }}/images/image19.jpg)
 		</span>
 	</span>
 	<span class="post-examples">
 		<strong class="ttl-line">Mobile</strong>
 		<span class="wrap">
-			<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image20.jpg">
+			<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image20-big.png">
 				![image description]({{ site.baseurl }}/images/image20.jpg)
 			</span>
-			<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image21.jpg">
+			<span class="lightbox" data-lightbox="{{ site.baseurl }}/images/image21-big.png">
 				![image description]({{ site.baseurl }}/images/image21.jpg)
 			</span>
 		</span>

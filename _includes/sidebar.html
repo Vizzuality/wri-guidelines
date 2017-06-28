@@ -8,13 +8,13 @@
 				{% assign length = items | size %}
 				<li>
 					<a class="{% if items.first.title == page.title %}active{% endif %}"
-						href="{{ site.baseurl }}{{ items.first.url }}">{{ items.first.title }}{% if length > 1 %}<span class="opener"></span>{% endif %}</a>
+						href="{{ site.baseurl }}{{ items.first.url }}">{{ items.first.title }}</a>
 					{% for drop in drops %}
 						{% if drop.size > 1 %}
 							<ul class="drop">
 								<li class="first">
 									<a class="{% if drop.items.first.title == page.title %}active{% endif %}"
-										href="{{ site.baseurl }}{{ drop.items.first.url }}">{{ drop.items.first.title }}<span class="opener"></span></a>
+										href="{{ site.baseurl }}{{ drop.items.first.url }}">{{ drop.items.first.title }}</a>
 									<ul class="sub-drop">
 										{% for item in drop.items %}
 											{% if forloop.index > 1 %}
