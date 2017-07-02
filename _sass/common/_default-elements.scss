@@ -35,7 +35,7 @@
 			}
 		}
 		&:before {
-			top: 7px;
+			top: 5px;
 			content: '';
 			transform: rotate(45deg);
 			height: 7px;
@@ -44,10 +44,6 @@
 			position: absolute;
 			border-style: solid;
 			border-color: #303030;
-		}
-
-		&:hover {
-			color: darken(#f4bb2b,10%);
 		}
 	}
 }
