@@ -314,15 +314,15 @@
 		width: 100%;
 		padding: 0;
 	}
-	a {
+	.image {
 		display: block;
 		position: relative;
 		max-height: 236px;
 		overflow: hidden;
 		transition: opacity 0.3s ease;
-		&:hover {
-			opacity: 0.8;
-		}
+		// &:hover {
+		// 	opacity: 0.8;
+		// }
 		span {
 			background: rgba(#333, 0.7);
 			padding: 13px 15px;

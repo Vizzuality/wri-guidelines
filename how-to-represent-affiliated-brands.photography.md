@@ -24,52 +24,52 @@ crop it or alter color or contrast.
 <span class="wrap-conteiner">
 	<span class="photography-list">
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Natural</span>
 				![image description]({{ site.baseurl }}/images/image25.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Colorful</span>
 				![image description]({{ site.baseurl }}/images/image26.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Dynamic</span>
 				![image description]({{ site.baseurl }}/images/image27.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Local</span>
 				![image description]({{ site.baseurl }}/images/image28.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Human</span>
 				![image description]({{ site.baseurl }}/images/image29.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Interactive</span>
 				![image description]({{ site.baseurl }}/images/image30.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Realistic</span>
 				![image description]({{ site.baseurl }}/images/image31.jpg)
-			</a>
+			</span>
 		</span>
 		<span class="post-photo">
-			<a href="#">
+			<span class="image">
 				<span>Transformational</span>
 				![image description]({{ site.baseurl }}/images/image32.jpg)
-			</a>
+			</span>
 		</span>
 	</span>
 </span>
