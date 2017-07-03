@@ -16,7 +16,7 @@
 		display: none;
 		// @include media-query($tablet) {
 		//	display: block;
-		//} 
+		//}
 		&:before,
 		&:after{
 			content: '';
@@ -42,7 +42,7 @@
 		// @include media-query($tablet) {
 		//	display: block;
 		//	text-align: center;
-		//} 
+		//}
 	}
 	.title {
 		color: $color-text;
@@ -130,7 +130,6 @@
 	> li > a{
 		font-family: $secondary-font-family;
 		font-size: 19px;
-		font-weight: 700;
 		.opener{
 			&:hover{
 				&:before{
