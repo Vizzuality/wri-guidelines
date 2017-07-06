@@ -74,10 +74,10 @@ compose easy-to-read content pages.
 <span class="examples-block size-02">
 	<span class="post-examples">
 		![image description]({{ site.baseurl }}/images/image34.jpg)
-		<a href="#" class="button">Open in zeplin</a>
+		<a href="https://zpl.io/Zd6ilD" class="button" target="_blank" rel="noreferrer noopener">Open in zeplin</a>
 	</span>
 	<span class="post-examples">
 		![image description]({{ site.baseurl }}/images/image35.jpg)
-		<a href="#" class="button">Open in zeplin</a>
+		<a href="https://zpl.io/1TkWME" class="button" target="_blank" rel="noreferrer noopener">Open in zeplin</a>
 	</span>
 </span>

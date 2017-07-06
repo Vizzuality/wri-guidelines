@@ -48,11 +48,11 @@ Click on the thumbnails to see how the navigation looks when applied to a real-l
 <span class="examples-block">
 	<span class="post-examples">
 		![image description]({{ site.baseurl }}/images/image36.jpg)
-		<a href="#" class="button">Open in zeplin</a>
+		<a href="https://zpl.io/EW92F" class="button" target="_blank" rel="noreferrer noopener">Open in zeplin</a>
 	</span>
 	<span class="post-examples">
 		![image description]({{ site.baseurl }}/images/image37.jpg)
-		<a href="#" class="button">Open in zeplin</a>
+		<a href="https://zpl.io/Z1kKf2y" class="button" target="_blank" rel="noreferrer noopener">Open in zeplin</a>
 	</span>
 </span>
 
