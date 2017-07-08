@@ -130,6 +130,7 @@
 	> li > a{
 		font-family: $secondary-font-family;
 		font-size: 19px;
+    font-weight: 700;
 		.opener{
 			&:hover{
 				&:before{
