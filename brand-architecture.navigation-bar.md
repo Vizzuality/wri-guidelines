@@ -42,8 +42,8 @@ there will be a new element named “More” that will progressively group the e
 the right-hand side. Navigation bar elements should be sorted by relevance in order to
 avoid being hidden from view.
 
-<a href="https://zpl.io/ZvJPu0" class="button" target="_blank" rel="noreferrer noopener">See light version on Zeplin</a>
-<a href="https://zpl.io/Z1JPtkT" class="button" target="_blank" rel="noreferrer noopener">See dark version on Zeplin</a>
+<a href="https://zpl.io/ZvJPu0" class="button" target="_blank" rel="noreferrer noopener">See example 1</a>
+<a href="https://zpl.io/Z1JPtkT" class="button" target="_blank" rel="noreferrer noopener">See example 2</a>
 
 ![image description]({{ site.baseurl }}/images/image6.png)
 
