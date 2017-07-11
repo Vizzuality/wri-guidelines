@@ -17,14 +17,21 @@ sections deploying dropdown menu when clicking on any place of the bar.
 
 ![image description]({{ site.baseurl }}/images/image3.png)
 
-```css
-body {
- color: #333333;
-}
+We've created a simple snippet to add this bar automatically.
+
+```js
+(function(){
+  var element = document.createElement('div'),
+    scriptTag = document.createElement('script');
+  element.id = 'headerWrI';
+  scriptTag.src = 'https://vizzuality.github.io/wri-guide/wri-guide-assets.js';
+  document.body.insertBefore(element, document.body.firstChild);
+  document.body.appendChild(scriptTag);
+})();
 ```
 
 <div class="align-right">
-	<button class="button align-right" data-clipboard-text="body {color: #333333;}">Copy</button>
+	<button class="button align-right" data-clipboard-text="(function(){var element = document.createElement('div'), scriptTag = document.createElement('script'); element.id = 'headerWrI'; scriptTag.src = 'https://vizzuality.github.io/wri-guide/wri-guide-assets.js'; document.body.insertBefore(element, document.body.firstChild); document.body.appendChild(scriptTag); })();">Copy</button>
 </div>
 
 <mark> * </mark> The drop-down menu height is 50% of the window and has a minimum height of 400px.
