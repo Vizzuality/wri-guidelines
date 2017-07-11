@@ -155,5 +155,5 @@ remain faithful to the original concept.
 </span>
 
 <div class="align-right">
-	<button class="button align-right" onclick="alert('Here wil be download action')">Download</button>
+	<button class="button align-right" onclick="window.open('/wri-guidelines/WRI_Icons.zip')">Download</button>
 </div>
