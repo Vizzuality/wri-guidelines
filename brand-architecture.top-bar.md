@@ -17,6 +17,8 @@ sections deploying dropdown menu when clicking on any place of the bar.
 
 ![image description]({{ site.baseurl }}/images/image3.png)
 
+[Preview](https://vizzuality.github.io/wri-guide/)
+
 We've created a simple snippet to add this bar automatically.
 
 ```js
