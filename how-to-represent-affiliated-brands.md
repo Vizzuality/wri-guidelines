@@ -13,4 +13,4 @@ order: 4
 This section aims to shed some light to designers and front-enders to understand how the
 WRI’s brands behave and put together some visual elements that might be very helpful.
 
-<a class="button align-right" href="/wri-guidelines/17_StyleGuide_web.zip">Download</a>
+<a class="button align-right" href="/wri-guidelines/17_StyleGuide_web.pdf">Download</a>
