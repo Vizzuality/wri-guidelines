@@ -15,4 +15,4 @@ decision tree to determine what brand the project should use:
 
 ![image description]({{ site.baseurl }}/images/image33.png)
 
-Contact with Bill Dugan, Creative Director, for guidance and support: <button class="button" onClick="alert('Here wil be contact action')">Contact here</button>
+Contact with Bill Dugan, Creative Director, for guidance and support: <a class="button" href="mailto:bdugan@wri.org">Contact here</a>
