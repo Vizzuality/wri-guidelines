@@ -15,19 +15,19 @@ WRI project websites use a 12 column grid (six on smallest devices). This grid m
 
 These are some examples of possible configurations for contents of the 12 column grid
 
-![image description]({{ site.baseurl }}/images/image14.jpg)
+![image description]({{ site.baseurl }}/images/image14.png)
 
 <div class="align-right margin-bottom">
 	Desktop displays
 </div>
 
-![image description]({{ site.baseurl }}/images/image15.jpg)
+![image description]({{ site.baseurl }}/images/image15.png)
 
 <div class="align-right margin-bottom">
 	Mobile devices
 </div>
 
-<p>Each column is composed by a variable width that changes with the display size and a 10-pixel padding. There are three cases for a screen up to 1200 pixel-width, the maximum allowed. If the screen is wider than that, the content stays centered. If the screen is smaller than 720 pixels, the content adapts to a mobile device layout with an elastic 6-column grid.</p>
+<p>Each column is composed by a variable width that changes with the display size and a 20-pixel gutter. There are three cases for a screen up to 1200 pixel-width, the maximum allowed. If the screen is wider than that, the content stays centered. If the screen is smaller than 720 pixels, the content adapts to a mobile device layout with an elastic columns grid.</p>
 
 ![image description]({{ site.baseurl }}/images/image16.png)
 
@@ -43,19 +43,19 @@ These are some examples of possible configurations for contents of the 12 column
 		</li>
 		<li>
 			<div class="col">> 1260 px </div>
-			<div class="col">90 px (12 columns)</div>
+			<div class="col">70 px (1080 px)</div>
 		</li>
 		<li>
 			<div class="col">1260 - 960 px</div>
-			<div class="col">80 px (12 columns)</div>
+			<div class="col">60 px (960 px)</div>
 		</li>
 		<li>
 			<div class="col">960 - 720 px</div>
-			<div class="col">60 px (12 columns)</div>
+			<div class="col">40 px (720 px)</div>
 		</li>
 		<li>
 			<div class="col"><720</div>
-			<div class="col">1/6 (6 columns)</div>
+			<div class="col">1/12</div>
 		</li>
 	</ul>
 </div>

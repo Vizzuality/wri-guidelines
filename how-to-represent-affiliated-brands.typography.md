@@ -69,6 +69,86 @@ compose easy-to-read content pages.
 >
 > <cite><strong>Quote Author</strong> Quote author position  </cite>
 
+
+```css
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: AcuminPro, Arial, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4A4A4A;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: 'AcuminProCond';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+.btn-lbl {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    border: 1px solid #4a4a4a;
+    border-radius: 3px;
+    min-width: 170px;
+    font-weight: 700;
+    padding: 13px 20px 13px
+}
+
+.legend {
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.chart-value {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.77;
+    font-weight: 300;
+}
+
+blockquote {
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 300;
+    letter-spacing: -1px;
+    padding: 20px 0 44px 15%;
+}
+
+blockquote cite {
+    text-align: right;
+    font-size: 16px;
+}
+
+blockquote cite strong {
+    display: block;
+    font-weight: 700;
+}
+```
+
 # Examples
 
 <span class="examples-block size-02">
