@@ -54,14 +54,14 @@ compose easy-to-read content pages.
 		Description - Description of an element, style not meant to be used in long-read content. To improve readability, it’s strongly advised to keep the width of a description paragraph narrower than 520px.
 	</div>
 	<p>
-		<a href="#" class="btn-lbl">Button Label</a>
+		<span class="btn-lbl">Button Label</span>
 	</p>
 	<div class="min-txt">
 		<strong>MENU ITEM / CHART LEGEND</strong>
 		<p>Chart values &nbsp; 2010 &nbsp; 2011 &nbsp; 2012</p>
 	</div>
 	<div class="big-txt">
-		<p>Body. This style is meant to be used in long-read content, <a href="#">links style</a>. To improve readability, it’s strongly advised to keep the width of paragraphs narrower than 700px. Protecting these rights, especially for the most marginalized and vulnerable, is the first step to promoting equity and fairness in sustainable development. Without essential rights, information exchange between governments and the public is stifled and decisions that harm communities and the environment cannot be challenged or remedied.</p>
+		<p>Body. This style is meant to be used in long-read content, <a>links style</a>. To improve readability, it’s strongly advised to keep the width of paragraphs narrower than 700px. Protecting these rights, especially for the most marginalized and vulnerable, is the first step to promoting equity and fairness in sustainable development. Without essential rights, information exchange between governments and the public is stifled and decisions that harm communities and the environment cannot be challenged or remedied.</p>
 	</div>
 </div>
 
