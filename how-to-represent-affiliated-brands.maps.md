@@ -65,42 +65,68 @@ The default basemaps that should be used in most of the projects. A clean and lo
 <div class="google-map-block">
 	<span class="label">Light basemap with labels</span>
 	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj0rundvt00an2rqp4xh9xsz8.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#8.05/45.6485/13.5231" width="100%" height="400px"></iframe>
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9rs05qnu2rrpp4qzucox.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#3.1/27.172264/-10.214964/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj0rundvt00an2rqp4xh9xsz8.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#8.05/45.6485/13.5231">Open in Mapbox</a>
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9rs05qnu2rrpp4qzucox.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#3.1/27.172264/-10.214964/0">Open in Mapbox</a>
 	</div>
 </div>
 
 <div class="google-map-block">
-	<span class="label">Light basemap with labels</span>
+	<span class="label">Light basemap no labels</span>
 	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj0mhlipx00aa2slaxd738db2.html?title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#5.95/35.131/-4.595" width="100%" height="400px"></iframe>
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjhqgk77j0r7h2sqw220p7imy.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.0/31.036434/9.564770/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj0mhlipx00aa2slaxd738db2.html?title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#5.95/35.131/-4.595">Open in Mapbox</a>
-	</div>
-</div>
-
-<div class="google-map-block">
-	<span class="label">Dark basemap with labels</span>
-	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj1yoazm8000j2sp158hn6vcl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.66/42.562/76.082" width="100%" height="400px"></iframe>
-	</div>
-	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj1yoazm8000j2sp158hn6vcl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.66/42.562/76.082">Open in Mapbox</a>
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjhqgk77j0r7h2sqw220p7imy.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.0/31.036434/9.564770/0">Open in Mapbox</a>
 	</div>
 </div>
 
 <div class="google-map-block">
 	<span class="label">Dark basemap with labels</span>
 	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj0mhglox00a92slahe3obtpq.html?title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.91/53.714/-1.933" width="100%" height="400px"></iframe>
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9gqk9tmm2spd9zr0tml3.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.7/29.874835/-11.661491/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj1yoazm8000j2sp158hn6vcl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.66/42.562/76.082">Open in Mapbox</a>
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9gqk9tmm2spd9zr0tml3.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.7/29.874835/-11.661491/0">Open in Mapbox</a>
 	</div>
 </div>
+
+<div class="google-map-block">
+	<span class="label">Dark basemap no labels</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjhqgjq1908ar2smep2wd7wf7.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.5/33.572907/-1.694562/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjhqgjq1908ar2smep2wd7wf7.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.5/33.572907/-1.694562/0">Open in Mapbox</a>
+	</div>
+</div>
+
+## Boundaries
+
+<div class="google-map-block">
+	<span class="label">Boundaries</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf8qdaai1x2rn6w3j4q805.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.6/37.998882/-6.228585/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf8qdaai1x2rn6w3j4q805.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.6/37.998882/-6.228585/0">Open in Mapbox</a>
+	</div>
+</div>
+
+
+## Terrain
+
+<div class="google-map-block">
+	<span class="label">Terrain</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjhqi456h02pg2rp6w2mwp61c.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.7/34.858938/16.079917/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjhqi456h02pg2rp6w2mwp61c.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.7/34.858938/16.079917/0">Open in Mapbox</a>
+	</div>
+</div>
+
 
 ## Water
 
@@ -121,21 +147,32 @@ The water basemap. with a strong contrast between water and land surfaces to hel
 Beautiful satellite imagery can help making users care about the planet our efforts are trying to protect. Satellite shouldn’t be the default basemap in analytical data visualisations.
 
 <div class="google-map-block">
-	<span class="label">Satellite basemap with labels</span>
+	<span class="label">Satellite basemap</span>
 	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj1yofkg1000r2smfuxsm6fdy.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.16/6.236/4.82" width="100%" height="400px"></iframe>
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjhqiecof53wv2rl9gw4cehmy.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.6/37.998882/-6.228585/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj1yoazm8000j2sp158hn6vcl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.66/42.562/76.082">Open in Mapbox</a>
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjhqiecof53wv2rl9gw4cehmy.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.6/37.998882/-6.228585/0
+">Open in Mapbox</a>
 	</div>
 </div>
 
 <div class="google-map-block">
-	<span class="label">Satellite basemap with labels</span>
+	<span class="label">RW Satellite (dark) basemap</span>
 	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj0cl6k8h00bu2sobqze86bcm.html?title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#4.28/22.294/-72.732" width="100%" height="400px"></iframe>
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cj1erey1c00ia2rqmvh6htv3x.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.8/22.457070/7.866415/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj0cl6k8h00bu2sobqze86bcm.html?title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#4.28/22.294/-72.732">Open in Mapbox</a>
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cj1erey1c00ia2rqmvh6htv3x.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.8/22.457070/7.866415/0">Open in Mapbox</a>
+	</div>
+</div>
+
+<div class="google-map-block">
+	<span class="label">PREP Satellite basemap</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjjr8d2qw19y92smuuzydlpdv.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.1/38.990403/27.751644/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjjr8d2qw19y92smuuzydlpdv.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.1/38.990403/27.751644/0">Open in Mapbox</a>
 	</div>
 </div>
