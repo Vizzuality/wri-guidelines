@@ -132,12 +132,22 @@ The default basemaps that should be used in most of the projects. A clean and lo
 The water basemap. with a strong contrast between water and land surfaces to help users focus on water related data visualisations.
 
 <div class="google-map-block">
-	<span class="label">Satellite basemap with labels</span>
+	<span class="label">Water light</span>
 	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/jcawri/cj0mhglox00a92slahe3obtpq.html?title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.91/53.714/-1.933" width="100%" height="400px"></iframe>
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjiopfnca1bdu2rqocirdb3qv.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.7/34.858938/16.079917/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/jcawri/cj1yoazm8000j2sp158hn6vcl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiamNhd3JpIiwiYSI6ImNqMDd6N2NybzAwMHcyd29iZWlsems0enEifQ.eIqQeyQn5oCLkyivGtiVLg#6.66/42.562/76.082">Open in Mapbox</a>
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjiopfnca1bdu2rqocirdb3qv.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.7/34.858938/16.079917/0">Open in Mapbox</a>
+	</div>
+</div>
+
+<div class="google-map-block">
+	<span class="label">Water dark</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjiopfb302cbk2snzezwe1o6s.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.7/34.858938/16.079917/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjiopfb302cbk2snzezwe1o6s.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.7/34.858938/16.079917/0">Open in Mapbox</a>
 	</div>
 </div>
 
