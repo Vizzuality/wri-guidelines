@@ -63,32 +63,12 @@ Click on the thumbnails to see how the navigation looks when applied to a real-l
 The default basemaps that should be used in most of the projects. A clean and low-key style that puts the focus on the actual data showcased on the map.
 
 <div class="google-map-block">
-	<span class="label">Light basemap with labels</span>
-	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9rs05qnu2rrpp4qzucox.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#3.1/27.172264/-10.214964/0" width="100%" height="400px"></iframe>
-	</div>
-	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9rs05qnu2rrpp4qzucox.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#3.1/27.172264/-10.214964/0">Open in Mapbox</a>
-	</div>
-</div>
-
-<div class="google-map-block">
 	<span class="label">Light basemap no labels</span>
 	<div class="map">
 		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjhqgk77j0r7h2sqw220p7imy.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.0/31.036434/9.564770/0" width="100%" height="400px"></iframe>
 	</div>
 	<div class="align-right">
 		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjhqgk77j0r7h2sqw220p7imy.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.0/31.036434/9.564770/0">Open in Mapbox</a>
-	</div>
-</div>
-
-<div class="google-map-block">
-	<span class="label">Dark basemap with labels</span>
-	<div class="map">
-		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9gqk9tmm2spd9zr0tml3.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.7/29.874835/-11.661491/0" width="100%" height="400px"></iframe>
-	</div>
-	<div class="align-right">
-		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9gqk9tmm2spd9zr0tml3.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.7/29.874835/-11.661491/0">Open in Mapbox</a>
 	</div>
 </div>
 
@@ -102,7 +82,27 @@ The default basemaps that should be used in most of the projects. A clean and lo
 	</div>
 </div>
 
-## Boundaries
+## Helper layers
+
+<div class="google-map-block">
+	<span class="label">Dark labels</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9gqk9tmm2spd9zr0tml3.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.7/29.874835/-11.661491/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9gqk9tmm2spd9zr0tml3.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#4.7/29.874835/-11.661491/0">Open in Mapbox</a>
+	</div>
+</div>
+
+<div class="google-map-block">
+	<span class="label">Light labels</span>
+	<div class="map">
+		<iframe src="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9rs05qnu2rrpp4qzucox.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#3.1/27.172264/-10.214964/0" width="100%" height="400px"></iframe>
+	</div>
+	<div class="align-right">
+		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf9rs05qnu2rrpp4qzucox.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#3.1/27.172264/-10.214964/0">Open in Mapbox</a>
+	</div>
+</div>
 
 <div class="google-map-block">
 	<span class="label">Boundaries</span>
@@ -113,7 +113,6 @@ The default basemaps that should be used in most of the projects. A clean and lo
 		<a class="button align-right" href="https://api.mapbox.com/styles/v1/resourcewatch/cjgcf8qdaai1x2rn6w3j4q805.html?fresh=true&title=true&access_token=pk.eyJ1IjoicmVzb3VyY2V3YXRjaCIsImEiOiJjajFlcXZhNzcwMDBqMzNzMTQ0bDN6Y3U4In0.FRcIP_yusVaAy0mwAX1B8w#2.6/37.998882/-6.228585/0">Open in Mapbox</a>
 	</div>
 </div>
-
 
 ## Terrain
 
